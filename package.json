@@ -1,0 +1,24 @@
+{
+  "name": "islamic-books",
+  "version": "1.0.0",
+  "description": "Get random book names",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jashaikh-dev/islamic-books.git"
+  },
+  "keywords": [
+    "islamic",
+    "book",
+    "names"
+  ],
+  "author": "Junaid Azhar Shaikh <junaidazharshaikh@gmail.com> (http://tychhexagon.com/me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jashaikh-dev/islamic-books/issues"
+  },
+  "homepage": "https://github.com/jashaikh-dev/islamic-books#readme"
+}
