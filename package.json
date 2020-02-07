@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/jashaikh-dev/islamic-books/issues"
   },
-  "homepage": "https://github.com/jashaikh-dev/islamic-books#readme"
+  "homepage": "https://github.com/jashaikh-dev/islamic-books#readme",
+  "dependencies": {
+    "unique-random-array": "2.0.0"
+  }
 }
