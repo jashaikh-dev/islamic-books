@@ -1,14 +1,16 @@
 {
   "name": "islamic-books",
-  "version": "1.2.0-beta.0",
+  "version": "0.0.0-development",
   "description": "Get random book names",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha src/index.test.js -w",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
+    "commit": "git-cz",
     "type": "git",
-    "url": "git+https://github.com/jashaikh-dev/islamic-books.git"
+    "url": "https://github.com/jashaikh-dev/islamic-books.git"
   },
   "keywords": [
     "islamic",
@@ -23,5 +25,15 @@
   "homepage": "https://github.com/jashaikh-dev/islamic-books#readme",
   "dependencies": {
     "unique-random-array": "2.0.0"
+  },
+  "devDependencies": {
+    "chai": "4.2.0",
+    "commitizen": "4.0.3",
+    "cz-conventional-changelog": "3.1.0",
+    "mocha": "7.0.1",
+    "semantic-release": "^17.0.2"
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
   }
 }
