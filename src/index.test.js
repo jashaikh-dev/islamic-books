@@ -23,6 +23,14 @@ describe('islamic-books', function() {
             var randomBook = islamicBooks.randomBook();
             expect(islamicBooks.allBooks).to.include(randomBook);
         })
+        it('should return an array of random books if passed a number', function(){
+            var randomBooks = islamicBooks.randomBook(2);
+            expect(randomBooks).to.have.length(2);
+            randomBooks.forEach(function(book) {
+                expect(islamicBooks.allBooks).to.include(book);
+            })
+        })
     })
+
     
 })
