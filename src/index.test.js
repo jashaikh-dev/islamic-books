@@ -1,5 +1,5 @@
-var expect = require('chai').expect;
-var islamicBooks = require('./index');
+import { expect } from 'chai'
+import islamicBooks from './index'
 
 describe('islamic-books', function() {
     describe('allBooks', function() {

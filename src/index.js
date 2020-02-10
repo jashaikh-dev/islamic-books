@@ -1,6 +1,6 @@
 
-var uniqueRandomArray = require('unique-random-array');
-var bookList = require('./islamic-books.json');
+import uniqueRandomArray from 'unique-random-array';
+import bookList from './islamic-books.json';
 var getRandomBook = uniqueRandomArray(bookList);
 
 module.exports = {
